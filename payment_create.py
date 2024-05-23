@@ -1,9 +1,7 @@
 from uuid import uuid4
-import json
 
 from yookassa import Configuration, Payment
 from yookassa.domain.response.payment_response import PaymentResponse
-from yookassa.domain.response.payment_list_response import PaymentListResponse
 
 from constants import SHOP_ID, SECRET_KEY, CONFIRMATION_URL
 
